@@ -31,4 +31,28 @@ body {
   color: white;
 }
 
+header {
+  background-image: url("../images/bg-mobile.svg");
+  background-position: left 0% top 0%;
+  height: 50vh;
+}
+header .logo-container {
+  align-self: center;
+  width: 80%;
+}
+header .logo-container .logo {
+  text-align: left;
+  width: 120px;
+  height: 120px;
+}
+header .illustration-container {
+  align-self: center;
+  height: 700px;
+  width: 80%;
+  background-size: cover;
+}
+header .illustration-container .illustration {
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
