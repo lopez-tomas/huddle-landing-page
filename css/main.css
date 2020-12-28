@@ -1,9 +1,34 @@
-body {
-  background-color: red;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  font-size: 50px;
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+.fl {
+  display: flex;
+}
+
+.fl-dir {
+  flex-direction: column;
+}
+
+.fl-ai-center {
+  align-items: center;
+}
+
+.fl-jc-center {
+  align-items: center;
+}
+
+body {
+  width: 100%;
+  background-color: #674baf;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
