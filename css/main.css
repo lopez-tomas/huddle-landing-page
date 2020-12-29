@@ -95,18 +95,22 @@ main .btn-container:active a {
 footer {
   height: 13vh;
 }
-footer a {
-  padding: 1rem;
+footer span {
+  padding: 0.9rem;
   margin: 0 0.5rem;
   border: 1px solid white;
   border-radius: 50%;
-  font-size: 1.1rem;
-  color: white;
-  text-decoration: none;
 }
-footer a:active {
-  color: #e882e8;
+footer span a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+}
+footer span:active {
   border-color: #e882e8;
+}
+footer span:active a {
+  color: #e882e8;
 }
 
 /*# sourceMappingURL=main.css.map */
