@@ -22,7 +22,7 @@ html {
 }
 
 .fl-jc-center {
-  align-items: center;
+  justify-content: center;
 }
 
 body {
@@ -90,6 +90,23 @@ main .btn-container:active {
 }
 main .btn-container:active a {
   color: white;
+}
+
+footer {
+  height: 15vh;
+}
+footer a {
+  padding: 1rem;
+  margin: 0 0.5rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+}
+footer a:active {
+  color: #e882e8;
+  border-color: #e882e8;
 }
 
 /*# sourceMappingURL=main.css.map */
